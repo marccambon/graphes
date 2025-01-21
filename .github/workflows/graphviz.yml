@@ -13,5 +13,8 @@ jobs:
     - name: upload du resultat
       uses: actions/upload-artifact@v4
       with:
-        name: graphg4
-        path: /output/graphg4.svg
+        name: g4.svg
+        path: /output
+      with:
+        name: g4.png
+        path: /output
