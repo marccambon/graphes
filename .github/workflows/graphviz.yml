@@ -14,4 +14,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: graphg4
-        path: graphg4
+        path: /output/graphg4.svg
